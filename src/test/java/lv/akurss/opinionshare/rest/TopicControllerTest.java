@@ -37,10 +37,6 @@ public class TopicControllerTest {
         Assert.assertEquals("Test title", bean.title);
         Assert.assertEquals("Test url", bean.url);
 
-
-
-
-
     }
 
 }

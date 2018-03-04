@@ -38,7 +38,7 @@ public class OpinionController {
     @RequestMapping(path = "/{topicId}", method = RequestMethod.GET)
     public List<OpinionBean> getAll(@PathVariable("topicId") Long topicId) {
 
-        Topic topic =  topicRepository.findOne(topicId);
+        Topic topic = topicRepository.findOne(topicId);
 
         Iterable<Opinion> opinions = opinionRepository.findAllByTopic(topic);
 

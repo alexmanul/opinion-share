@@ -13,8 +13,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class OpinionControllerTest {
 
-
-
     @Autowired
     private TestRestTemplate restTemplate;
 
